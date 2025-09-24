@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-const API_URL = 'http://localhost:5000/api/companies';
+const API_URL = 'https://company-management-c21n.onrender.com/api/companies';
 
 export const getCompanies = async (filters = {}) => {
   const cleanedFilters = Object.fromEntries(
