@@ -67,10 +67,10 @@ A modern full-stack web application for managing company data, built with **Node
 
 ## 📋 API Endpoints
 
-- `GET /api/companies` — List & filter companies
-- `POST /api/companies` — Add a new company
-- `PUT /api/companies/:id` — Update a company
-- `DELETE /api/companies/:id` — Delete a company
+- `GET /api/companies/list` — List & filter companies
+- `POST /api/companies/create` — Add a new company
+- `PUT /api/companies/edit/:id` — Update a company
+- `DELETE /api/companies/delete/:id` — Delete a company
 
 
 ## 💡 Customization
